@@ -1,0 +1,25 @@
+{
+    "name": "testulmonser/test-package",
+    "description": "test package",
+    "homepage": "https://github.com/krasickimarek136/semindo",
+	"keywords": ["bonus sts 2020"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bonus sts 2020",
+            "homepage": "http://parafiazulin.pl/sport/kod-promocji-sts.html",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "movies123\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
